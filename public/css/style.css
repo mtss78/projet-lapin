@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+h1{
+    color: #0056b3;
+    text-align: center;
+}
+#img{
+    width: 100%;
+    height: 700px;
+   
+}
+.imgContenaire{
+    width: 80%;
+    margin: auto;   
+}
+.logo{
+    width: 70px;
+    height: 40px;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    height: 1050px;
+}
+
+.product {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    transition: opacity 0.3s ease;
+}
+
+.product h2 {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #222;
+    font-weight: bold;
+}
+
+.product p {
+    font-size: 0.8em;
+    color: #666;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+.product .price {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.product .add-to-cart {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 3px 10px;
+    font-size: 1em;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    /* bottom: 10px; */
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.product .add-to-cart:hover {
+    background-color: #e84348;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.product:hover img {
+    opacity: 0.9;
+}
+
+footer{
+    background-color: #403834;
+
+ }  
+body{
+    background-color: #fffcf8;
+}
+footer{
+    background-color: #403834
+   
+   
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+footer p{
+    color: #fffcf8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .products-container {
+        grid-template-columns: 1fr;
+    }
+
+    .product img {
+        height: 180px;
+    }
+
+    .product .add-to-cart {
+        font-size: 0.7em;
+        
+    }
+    .products-container {
+       
+        height: auto;
+    }   
+}
+
