@@ -34,25 +34,16 @@ let img = document.querySelector('#img');
         }
         header {
             background-color: #f4f4f9;
+           
             padding: 20px;
             text-align: center;
         }
-        header p {
-            font-size: large;
-        }
-
-        header h1{
-            font-weight: bold;
-        }
-        .content h1{
-            font-weight: bold;
-        }
        
         .hero {
-            background-image: url('/public/img/lapin1.jpg');
+            background-image: url('https://via.placeholder.com/1200x400?text=Bienvenue+sur+le+site+de+produits+pour+lapins');
             background-size: cover;
             background-position: center;
-            height: 600px;
+            height: 400px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -65,8 +56,7 @@ let img = document.querySelector('#img');
             text-align: center;
         }
         .content h2 {
-            color: #0056b3;
-            font-weight: bold;
+            color: #8ec5a1;
         }
         .product-card {
             display: inline-block;
@@ -90,11 +80,11 @@ let img = document.querySelector('#img');
         <p>Le meilleur pour vos petits compagnons</p>
     </header>
     
-    <div class="hero">
-        <div></div>
-    </div>
+    <!-- <div class="hero">
+        <div>Découvrez nos produits pour lapins</div>
+    </div> -->
     <div class="content" id="products">
-        <h1>Nos Produits</h1>
+        <h2>Nos Produits</h2>
         <div class="product-card">
             <img src="public/img/a1.jpg" alt="Produit 1">
             <h3>Accessoires</h3>

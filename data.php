@@ -84,4 +84,5 @@
         "prix" => "1.50",
         "image" => "laitue.jpg",],
     ];
+    
 ?>
