@@ -1,29 +1,7 @@
 <?php
     include 'partials/head.php';
 ?>
-    <!-- <h1>Bienvenue dans notre site </h1>
-    <div class="imgContenaire">
-  <img src="/public/img/lapin1.jpg" alt="" id="img">
-  </div>
-<script>
-let num = 0;
-let img = document.querySelector('#img');
-      let interval = true; 
 
-    function slide(){ 
-        setInterval(function(event){
-            num += 1;
-            img.src = "/public/img/lapin" + num + ".jpg"
-            if(num == 3){
-                num = 0;
-            }
-        }, 1500);
-    }
-
-
-    slide()</script> -->
-
-   
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -34,16 +12,19 @@ let img = document.querySelector('#img');
         }
         header {
             background-color: #f4f4f9;
-           
             padding: 20px;
             text-align: center;
         }
-       
+
+        p{
+            font-weight: bold;
+        }
+
         .hero {
-            background-image: url('https://via.placeholder.com/1200x400?text=Bienvenue+sur+le+site+de+produits+pour+lapins');
+            background-image: url('/public/img/lapin1.jpg');
             background-size: cover;
             background-position: center;
-            height: 400px;
+            height: 600px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -56,11 +37,16 @@ let img = document.querySelector('#img');
             text-align: center;
         }
         .content h2 {
-            color: #8ec5a1;
+            color: #0056b3;
+            font-weight: bold;
+        }
+        header h1{
+            font-weight: bold;
         }
         .product-card {
             display: inline-block;
-            width: 200px;
+            width: 300px;
+            height: 380px;
             margin: 15px;
             padding: 15px;
             border: 1px solid #ddd;
@@ -69,39 +55,44 @@ let img = document.querySelector('#img');
         }
         .product-card img {
             width: 100%;
+            height: 270px;
             border-radius: 10px;
         }
-      
-    </style>
+        h3{
+            margin-top: 20px;
+            color: #0056b3;
+        }
+        </style>
 </head>
 <body>
     <header>
         <h1>Produits pour Lapins</h1>
         <p>Le meilleur pour vos petits compagnons</p>
     </header>
-    
-    <!-- <div class="hero">
-        <div>Découvrez nos produits pour lapins</div>
-    </div> -->
+
+    <div class="hero">
+        <div></div>
+    </div>
     <div class="content" id="products">
-        <h2>Nos Produits</h2>
+        <h2>Nos Catégories</h2>
+        <p>Découvrez nos produits pour lapins</p>
         <div class="product-card">
-            <img src="public/img/a1.jpg" alt="Produit 1">
+            <a href="accessoires.php"><img src="public/img/accessoire.jpg" alt="Produit 1"></a>
             <h3>Accessoires</h3>
-           
+
         </div>
         <div class="product-card">
-            <img src="public/img/j1.jpg" alt="Produit 2">
+            <a href="jouets.php"><img src="public/img/jouets.jpg" alt="Produit 2"></a>
             <h3>Jouets</h3>
-            
+
         </div>
         <div class="product-card">
-        <img src="public/img/j2.jpg" alt="Produit 2">
+        <a href="nourriture.php"><img src="public/img/alimentation.jpg" alt="Produit 3"></a>
             <h3>Nourritures</h3>
-            
+
         </div>
     </div>
-    
+
 </body>
 </html>
 

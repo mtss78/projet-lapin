@@ -2,9 +2,14 @@
 include 'partials/head.php';
 ?>
 
+
 <section class="about-us">
-    <div class="container1">
-        <h2>Qui sommes-nous ?</h2>
+    <div class="text-contact">
+
+
+        <div class="contact">
+            <h1>Qui somme-nous</h1>
+        </div>
         <p>
             Bienvenue chez <strong>le trésor du lapin</strong>, votre destination en ligne dédiée aux accessoires, jouets et
             à la nourriture de qualité pour vos adorables lapins. Fondée par des passionnés de lapins, notre boutique a
@@ -21,11 +26,10 @@ include 'partials/head.php';
             produits durables et éthiques. Nous travaillons avec des fournisseurs qui partagent nos valeurs et qui mettent
             en avant le bien-être animal.
         </p>
-        <p>
-            Rejoignez-nous dans notre aventure et offrez à votre lapin un monde de confort, de joie et de santé !
-        </p>
+
     </div>
 </section>
+
 <div class="faq-item">
     <div class="faq-image">
         <img src="/public/img/Capture-ecran(34).png" alt="lapin photo">
@@ -41,6 +45,7 @@ include 'partials/head.php';
         <p>Parce que Rabbits World est créé par des adoptants pour des adoptants, nous travaillons chaque jour à développer de nouveaux produits, articles ou idées, au gré de vos suggestions, de vos besoins et de vos envies.</p>
     </div>
 </div>
+
 
 <?php
 include 'partials/footer.php';
