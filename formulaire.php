@@ -5,12 +5,13 @@
         <h1>Contactez-nous</h1> 
     </div>
     <div class="text-contact">
-        <p>Nous serions ravis de vous entendre ! Que vous ayez des questions, des suggestions ou que vous souhaitiez <br>
-        simplement nous dire bonjour, n'hésitez pas à nous contacter via l'une des méthodes ci-dessous.</p>
+    <p>Nous serions ravis de vous entendre ! Que vous ayez des questions, des suggestions ou que vous souhaitiez <br>
+    simplement nous dire bonjour, n'hésitez pas à nous contacter via l'une des méthodes ci-dessous.</p>
+        
     </div>
 
 
-<div class="container">
+<div class="container2">
     <form action="formvalide.php" method="POST">
         
         <label for="mail" class="form-label">Email</label>
