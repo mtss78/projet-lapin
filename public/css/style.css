@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -110,16 +109,17 @@ body {
 footer{
     background-color: #403834;
    
+body{
+    background-color: #fffcf8;
+}
+footer{
+    background-color: #403834
 }
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
-}
-
-footer p {
-    color: white;
 }
 
 /* Responsive Design */
@@ -139,9 +139,6 @@ footer p {
     .products-container {
        
         height: auto;
-    }
-
-    
-    
+    }   
 }
 

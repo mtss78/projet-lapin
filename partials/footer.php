@@ -1,5 +1,3 @@
-
-
 <footer class="mt-5 p-3">
         <div class="container text-center">
             <div class="row justify-content-between">
@@ -15,12 +13,11 @@
                             <a href="formulaire.php" class="text-light">Contacte</a>
                         </li>
                     </ul>
-                </div>
-                
+                </div>       
         <p>&copy; 2024 Produits pour Lapins - Tous droits réservés</p>
-    
             </div>
         </div>
     </footer>
 </body>
 </html>
+
