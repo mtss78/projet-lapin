@@ -115,12 +115,17 @@ body{
 }
 footer{
     background-color: #403834
+   
+   
 }
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
+}
+footer p{
+    color: #fffcf8;
 }
 
 /* Responsive Design */
